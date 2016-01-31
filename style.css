@@ -1,0 +1,39 @@
+  .boxes {
+    text-align: center;
+  }
+
+  .box {
+    height: 100px;
+    width: 100px;
+    background: #90E500;
+    border-radius: 4px;
+    display: inline-block;
+    margin-left: 10px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+  }
+
+  .logo {
+    text-align: center;
+    margin-left: 30%;
+  }
+
+  h1 {
+    margin-top: 30px;
+    color: white;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  #quote {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
+    margin-top: 35px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  a {
+    text-decoration: none;
+  }
