@@ -27,6 +27,11 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
+  h2 {
+    color: grey;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
+  }
+
   #quote {
     font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
     margin-top: 35px;

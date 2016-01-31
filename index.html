@@ -4,6 +4,12 @@
 <head>
   <title>GSAP Demo</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="animate.min.css">
+  <script src="jquery-1.12.0.min.js"></script>
+  <script type="text/javascript" src="jquery.lettering.js"></script>
+  <script type="text/javascript" src="jquery.textillate.js"></script>
+
+
 </head>
 
 <body>
@@ -19,11 +25,22 @@
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
-    <script src="s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MorphSVGPlugin.min.js?r=10"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
 
-    <div id="quote">Welcome to the demo! Enjoy your stay, look at some animations. <br>I built this thing (we built this city) using GSAP, pixlr, and Adobe Illustrator. I hope you like what you see.</div>
+    <h2 class="tlt"><br>Welcome to the demo! Enjoy your stay, look at some animations.<br>
+  I built this thing (we built this city) using GSAP, Pixlr, and Adobe Illustrator. I hope you like what you see.</h2>
+
+
+    <script type="text/javascript">
+    $('.tlt').textillate({
+      in: { effect: "rollIn", delay:10},
+      out: { effect: "rollOut", sync: true },
+      loop: true
+    });
+    </script>
+
+
 </body>
 
 </html>
