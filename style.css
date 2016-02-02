@@ -23,6 +23,7 @@
     width: 80px;
     background-color: #99161E;
     transition: 1s;
+    transform: rotate(360deg);
   }
 
   .logo {
@@ -64,3 +65,4 @@
     text-align: center;
     margin-left: 13%;
   }
+

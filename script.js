@@ -3,4 +3,3 @@ TweenMax.staggerFrom(".box", 0.5, {opacity:0, y:200, rotation:720, scale:3, dela
 // TweenMax.to(".logo, .box", 0.5, {opacity:0, delay:2});
 
 
-
